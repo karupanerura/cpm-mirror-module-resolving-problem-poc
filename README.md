@@ -1,6 +1,6 @@
 # cpm module resolving problem poc
 
-`cpm` failed to resolve module when using cpan mirror (darkpan) with `cpanfile.snapshot`.
+`cpm` failed to resolve modules when using both `cpanfile.snapshot` and cpan mirror (darkpan).
 
 ## Case1. carton install --deployment (with PERL_CARTON_MIRROR)
 
