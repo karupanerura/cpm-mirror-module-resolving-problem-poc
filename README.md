@@ -4,6 +4,8 @@
 
 ## Case1. carton install --deployment (with PERL_CARTON_MIRROR)
 
+Successful
+
 ```
 + '[' -d local ']'
 + rm -rf local
@@ -20,6 +22,8 @@ Complete! Modules were installed into /Users/karupanerura/src/github.com/karupan
 
 ## Case2. cpm install --snapshot=cpanfile.snapshot --mirror=$MIRROR_URL
 
+Failure
+
 ```
 + '[' -d local ']'
 + rm -rf local
@@ -34,6 +38,8 @@ See /Users/karupanerura/.perl-cpm/build.log for details.
 
 ## Case3. cpm install --resolver=snapshot,http://cpan.metacpan.org --resolver=snapshot,$MIRROR_URL
 
+Failure
+
 ```
 + '[' -d local ']'
 + rm -rf local
@@ -46,6 +52,8 @@ See /Users/karupanerura/.perl-cpm/build.log for details.
 ```
 
 ## Case4. cpm install  --resolver=snapshot,$MIRROR_URL --resolver=snapshot,http://cpan.metacpan.org
+
+Failure
 
 ```
 + '[' -d local ']'
