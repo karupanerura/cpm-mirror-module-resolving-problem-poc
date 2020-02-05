@@ -1,0 +1,2 @@
+requires 'Foo::Bar'; # provided by DarkPAn
+requires 'M';        # provided by CPAN

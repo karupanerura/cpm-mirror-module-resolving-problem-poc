@@ -1,0 +1,15 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Foo-Bar-0.01
+    pathname: D/DU/DUMMY/Foo-Bar-0.01.tar.gz
+    provides:
+      Foo::Bar 0.01
+    requirements:
+      Module::Build::Tiny 0.035
+      perl 5.008001
+  M-1.000001
+    pathname: M/MS/MSTROUT/M-1.000001.tar.gz
+    provides:
+      M 1.000001
+    requirements:
+      ExtUtils::MakeMaker 0
